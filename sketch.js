@@ -93,7 +93,7 @@ function draw() {
 
         boy.x=200;
         boy.y=300;
-        boy.scale=0.5;
+        boy.scale=0.8;
         
         // cashG.destroyEach;
         // diamondsG.destroyEach;
@@ -119,7 +119,6 @@ function draw() {
         diamondsG.setVelocityYEach(0);
         jewelryG.setVelocityYEach(0);
         swordGroup.setVelocityYEach(0);
-        gameover.visible=true;
      
     }
   }
